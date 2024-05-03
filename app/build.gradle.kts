@@ -80,6 +80,7 @@ dependencies {
 	//Dagger - Hilt
 	implementation(libs.hilt.android)
 	implementation(libs.androidx.hilt.navigation.compose)
+	implementation(libs.accompanist.flowlayout)
 
 	implementation(libs.hilt.android.v244)
 	kapt(libs.hilt.android.compiler)
