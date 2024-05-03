@@ -16,23 +16,18 @@ private val DarkColorScheme = darkColorScheme(
 private val LightColorScheme = lightColorScheme(
 	primary = ColorPrimary,
 	secondary = Color.White,
+	background = Color.Black,
+	onBackground = TextWhite,
 	tertiary = MediumGray,
 	onPrimary = DarkGray
 )
 
 @Composable
 fun CleanCryptoTheme(
-	darkTheme: Boolean = true,
 	content: @Composable () -> Unit
 ) {
-	val colors = if (darkTheme) {
-		DarkColorScheme
-	} else {
-		LightColorScheme
-	}
-
 	MaterialTheme(
-		colorScheme = colors,
+		colorScheme = LightColorScheme,
 		typography = Typography,
 		shapes = Shapes,
 		content = content
