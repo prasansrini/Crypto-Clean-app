@@ -1,4 +1,4 @@
-package com.cleancrypto.ui.theme
+package com.cleancrypto.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
