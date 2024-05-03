@@ -27,7 +27,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.cleancrypto.presentation.coid_detail.CoinDetailViewModel
 
 @Composable
-fun CoinListScreen(
+fun CoinDetailScreen(
 	viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
 	val state = viewModel.state.value
